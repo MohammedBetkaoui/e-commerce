@@ -7,7 +7,7 @@ include('../../include/connection.php');
 
     $id = $_GET['id'];
     
-    $sql="DELETE FROM `commende` WHERE `id`=$id";
+    $sql="DELETE FROM `commandes` WHERE `id`=$id";
      
       if(mysqli_query($connection,$sql)){
 
