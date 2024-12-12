@@ -1,0 +1,99 @@
+.navbar {
+    padding: 15px;
+    background-color: #1c1c1e; /* Couleur sombre pour le fond */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar brand (LOGO) */
+.navbar-brand h4 {
+    font-size: 1.6em;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Liens dans le menu de navigation */
+.nav-item .nav-link {
+    color: #d1d1d1; /* Texte gris clair */
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 8px 15px;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+/* Effet de survol des liens */
+.nav-item .nav-link:hover {
+    color: #f1f1f1; /* Blanc au survol */
+    text-decoration: none;
+    transform: scale(1.1); /* Agrandissement subtil */
+}
+
+/* Lien actif */
+.navbar-nav .nav-item .nav-link.active {
+    color: #ffd700 !important; /* Couleur or pour le lien actif */
+    border-bottom: 2px solid #ffd700;
+}
+
+/* Espace à droite dans la navbar */
+.ms-auto {
+    margin-left: auto;
+}
+
+/* Responsive navbar */
+@media (max-width: 992px) {
+    .navbar {
+        padding: 10px 15px;
+    }
+
+    .navbar-brand h4 {
+        font-size: 1.4em;
+    }
+
+    .nav-item .nav-link {
+        font-size: 1em;
+    }
+}
+
+
+/* Table sombre */
+.table-hover tbody tr:hover {
+    background-color: #343a40;
+    cursor: pointer;
+}
+
+/* Boutons de navigation */
+.btn-dark {
+    background-color: #343a40;
+    border-color: #495057;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-dark:hover {
+    background-color: #495057;
+}
+
+/* Bouton danger pour suppression */
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #c82333;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Stylisation de la table */
+.table th, .table td {
+    vertical-align: middle;
+}
+
+/* Personnalisation du texte */
+.alert-danger {
+    background-color: #343a40;
+    color: #f8d7da;
+    border: 1px solid #f5c6cb;
+}
+
+
