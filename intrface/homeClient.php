@@ -66,7 +66,7 @@ $pageActuelle = $resultats['pageActuelle'];
         <!-- Titre -->
         <div class="heading_container heading_center">
             <h2>
-                <?= $produits->num_rows > 0 ? "Tous les produits" : "La liste des produits est vide !" ?>
+                <?= $produits->num_rows > 0 ? "Tous les pro" : "La liste des produits est vide !" ?>
             </h2>
         </div>
 
